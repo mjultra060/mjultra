@@ -18,16 +18,15 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="index.html#top" aria-label="MJ Ultra home">
-        <span class="brand-mark">MJ</span>
-        <span>MJ Ultra</span>
-      </a>
-      <nav class="site-nav service-nav">
-        <a href="sensual-massage-nyc.html">Sensual Massage</a>
-        <a href="bdsm-nyc.html">BDSM</a>
-        <a href="index.html#rates">Rates</a>
-        <a href="index.html#contact">Contact</a>
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="MJ Ultra home"><span class="brand-mark">MJ</span><span>MJ Ultra</span></a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle><span></span><span></span></button>
+      <nav class="site-nav" data-nav>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="rates.html">Rates</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </header>
     <main>
@@ -41,10 +40,11 @@
           The standard FBSM session is one hour. Details can be discussed during the required 10-minute phone consultation before booking.
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="index.html#contact">Request a booking</a>
-          <a class="button secondary" href="index.html#rates">View FBSM rate</a>
+          <a class="button primary" href="contact.html">Request a booking</a>
+          <a class="button secondary" href="rates.html">View FBSM rate</a>
         </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
