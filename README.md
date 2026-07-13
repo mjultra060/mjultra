@@ -6,6 +6,7 @@ A static personal-services website ready for GitHub Pages.
 
 - Replace the masked email and phone in `index.html` with the final public contact details.
 - Replace `assets/mj-ultra-hero.png` with a different hero image if desired.
+- Add, remove, or reorder gallery images in `assets/gallery/` and the `#gallery` section of `index.html`.
 - Review the service names and rates before publishing.
 
 ## Host on GitHub Pages
