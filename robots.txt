@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mjultra060.github.io/mjultra/sitemap.xml
