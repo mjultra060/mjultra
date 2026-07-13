@@ -360,6 +360,55 @@ h3 {
   margin-top: 14px;
 }
 
+.bluesky-link {
+  align-items: center;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(75, 169, 255, 0.28), transparent 30%),
+    linear-gradient(135deg, rgba(200, 23, 40, 0.18), rgba(217, 164, 65, 0.12));
+  border: 1px solid rgba(217, 164, 65, 0.28);
+  border-radius: 8px;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.28);
+  display: inline-flex;
+  gap: 14px;
+  margin-top: 22px;
+  min-height: 72px;
+  padding: 14px 18px;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.bluesky-link:hover {
+  border-color: rgba(240, 214, 154, 0.6);
+  transform: translateY(-2px);
+}
+
+.bluesky-logo {
+  color: #4ba9ff;
+  flex: 0 0 42px;
+  filter: drop-shadow(0 8px 18px rgba(75, 169, 255, 0.25));
+  height: 42px;
+  width: 42px;
+}
+
+.bluesky-logo path {
+  fill: currentColor;
+}
+
+.bluesky-link span {
+  display: grid;
+  gap: 4px;
+}
+
+.bluesky-link strong {
+  color: var(--white);
+  font-size: 1.05rem;
+}
+
+.bluesky-link small {
+  color: var(--gold-soft);
+  font-size: 0.92rem;
+  font-weight: 800;
+}
+
 .section-heading {
   max-width: 820px;
 }
@@ -907,6 +956,10 @@ h3 {
   .social-card {
     min-height: auto;
     padding: 22px;
+  }
+
+  .bluesky-link {
+    width: 100%;
   }
 
   .stats-band {
