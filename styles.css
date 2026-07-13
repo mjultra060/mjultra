@@ -409,6 +409,21 @@ h3 {
   font-weight: 800;
 }
 
+.cashapp-pill {
+  background:
+    radial-gradient(circle at 18% 20%, rgba(0, 214, 115, 0.2), transparent 34%),
+    rgba(217, 164, 65, 0.1);
+  border: 1px solid rgba(217, 164, 65, 0.26);
+  border-radius: 8px;
+  color: var(--gold-soft);
+  display: inline-flex;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-top: 18px;
+  min-height: 54px;
+  padding: 12px 18px;
+}
+
 .section-heading {
   max-width: 820px;
 }
