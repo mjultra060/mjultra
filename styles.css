@@ -349,6 +349,48 @@ h3 {
   margin: 0;
 }
 
+.experiences {
+  background:
+    radial-gradient(circle at 88% 16%, rgba(217, 164, 65, 0.12), transparent 24%),
+    linear-gradient(180deg, #0b0303, #120606);
+}
+
+.experience-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 40px;
+}
+
+.experience-grid article {
+  background:
+    linear-gradient(180deg, rgba(200, 23, 40, 0.12), transparent 36%),
+    var(--panel);
+  border: 1px solid rgba(217, 164, 65, 0.18);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  min-height: 310px;
+  padding: 30px;
+}
+
+.experience-grid p {
+  color: var(--muted);
+  margin: 0;
+}
+
+.experience-grid a {
+  color: var(--gold-soft);
+  font-weight: 800;
+  margin-top: auto;
+  padding-top: 28px;
+}
+
+.experience-grid a:hover {
+  color: var(--white);
+}
+
 .stats-band {
   background: #0b0404;
   display: grid;
@@ -608,6 +650,7 @@ h3 {
 
   .stats-band,
   .spectrum-grid,
+  .experience-grid,
   .rate-grid,
   .policy-grid {
     grid-template-columns: 1fr;
