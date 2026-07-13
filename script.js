@@ -16,3 +16,16 @@ if (toggle && nav) {
     }
   });
 }
+
+document.querySelectorAll("[data-contact]").forEach((button) => {
+  button.addEventListener("click", () => {
+    const value = button.getAttribute("data-contact");
+    const target = button.querySelector(".contact-value");
+
+    if (!value || !target) return;
+
+    target.textContent = value;
+    button.classList.add("is-revealed");
+    button.setAttribute("aria-label", value);
+  });
+});

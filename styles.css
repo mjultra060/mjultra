@@ -757,10 +757,39 @@ h3 {
   border: 1px solid rgba(217, 164, 65, 0.22);
   border-radius: 8px;
   color: var(--white);
-  display: block;
+  cursor: pointer;
+  display: grid;
+  font: inherit;
   font-weight: 800;
+  gap: 4px;
+  min-height: 72px;
   padding: 16px 18px;
-  text-align: center;
+  text-align: left;
+  width: 100%;
+}
+
+.contact-pill:hover,
+.contact-pill:focus-visible {
+  border-color: rgba(240, 214, 154, 0.62);
+  outline: 0;
+}
+
+.contact-pill.is-revealed {
+  background:
+    radial-gradient(circle at 12% 20%, rgba(217, 164, 65, 0.12), transparent 30%),
+    rgba(200, 23, 40, 0.16);
+}
+
+.contact-label {
+  color: var(--gold-soft);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+
+.contact-value {
+  color: var(--white);
+  font-size: 1rem;
+  overflow-wrap: anywhere;
 }
 
 .site-footer {
