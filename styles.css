@@ -294,6 +294,11 @@ h3 {
     #050202;
 }
 
+.gallery-title {
+  font-size: clamp(4rem, 9vw, 9rem);
+  line-height: 0.82;
+}
+
 .gallery-grid {
   display: flex;
   gap: 16px;
